@@ -113,25 +113,6 @@ class ProductVariations extends EditRecord
     {
         $result = [[]];
 
-        // Example of result what should look like
-        //        $result = [
-        //            [
-        //                'variation_type_1' => [
-        //                    'id' => 1,
-        //                    'name' => 'Black',
-        //                    'Type' => 'Color'
-        //                ]
-        //            ],
-        //            [
-        //                'variation_type_1' => [
-        //                    'id' => 2,
-        //                    'name' => 'White',
-        //                    'Type' => 'Color'
-        //                ]
-        //            ]
-        //            ... etc
-        //        ];
-
         foreach ($variationTypes as $index => $variationType) {
             $temp = [];
 
